@@ -45,3 +45,18 @@ vue.js와 node.js (express)를 연습하기 위한 앱 구현
 ## 4. 데이터 관계
 
 1. todo 1:N category
+
+# Server
+
+## 1. 모듈
+
+1. prettier
+   - code style 통일 시키는 용도
+   - airbnb
+2. lint
+   - code quality를 위한 용도
+
+## 1. 미들웨어
+
+1. express-session
+   - session 관리용 미들웨어
