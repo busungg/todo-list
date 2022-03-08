@@ -60,3 +60,12 @@ vue.js와 node.js (express)를 연습하기 위한 앱 구현
 
 1. express-session
    - session 관리용 미들웨어
+
+## 5. 개발 단계
+
+1. Sequelize 적용
+2. Todo Model 구현
+3. Category Model 구현
+4. Todo Router 구현
+5. Category Router 구현
+6. Vue 구현
