@@ -64,6 +64,8 @@ vue.js와 node.js (express)를 연습하기 위한 앱 구현
 ## 5. 개발 단계
 
 1. Sequelize 적용
+   - sequelize cli 사용
+   - sequelize init
 2. Todo Model 구현
 3. Category Model 구현
 4. Todo Router 구현

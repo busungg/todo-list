@@ -4,15 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
-const { Sequelize, Model, DataTypes } = require('sequelize');
-const sequelize = new Sequelize({
-  host: 'localhost',
-  port: 3306,
-  username: 'root',
-  password: '1',
-  database: 'todolist',
-  dialect: 'mysql',
-});
+const { sequelize } = require('./models');
 
 async function authenticate() {
   try {
@@ -26,24 +18,6 @@ async function authenticate() {
 }
 
 authenticate();
-
-class Todo extends Model {}
-Todo.init(
-  {
-    id: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
-      primaryKey: true,
-    },
-    title: {
-      type: DataTypes.STRING,
-    },
-    desc: {
-      type: DataTypes.STRING,
-    },
-  },
-  { sequelize, modelName: 'Todo', paranoid: true },
-);
 
 async function sync() {
   await sequelize.sync({ alter: true });
