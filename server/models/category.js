@@ -19,5 +19,9 @@ module.exports = function (sequelize, DataTypes) {
     },
   );
 
+  model.associate = function (db) {
+    model.belongsToMany(db['Todo'], { through: 'TodoCategories' });
+  };
+
   return model;
 };

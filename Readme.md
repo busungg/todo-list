@@ -44,7 +44,7 @@ vue.js와 node.js (express)를 연습하기 위한 앱 구현
 
 ## 4. 데이터 관계
 
-1. todo 1:N category
+1. todo N:M category
 
 # Server
 
@@ -55,13 +55,21 @@ vue.js와 node.js (express)를 연습하기 위한 앱 구현
    - airbnb
 2. lint
    - code quality를 위한 용도
+3. sequelize
+   - orm
+4. awilix
+   - js dependency injection
 
-## 1. 미들웨어
+## 2. 미들웨어
 
 1. express-session
    - session 관리용 미들웨어
 
-## 5. 개발 단계
+## 3. 폴더 구조
+
+1. https://blog.logrocket.com/the-perfect-architecture-flow-for-your-next-node-js-project/#rule2keepaclearseparationbetweenthebusinesslogicandtheapiroutes
+
+## 4. 개발 단계
 
 1. Sequelize 적용
    - sequelize cli 사용
