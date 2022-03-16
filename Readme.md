@@ -59,6 +59,8 @@ vue.js와 node.js (express)를 연습하기 위한 앱 구현
    - orm
 4. awilix
    - js dependency injection
+5. nodemon
+   - 코드 변경 시 서버 재시작
 
 ## 2. 미들웨어
 
