@@ -28,6 +28,7 @@ sync();
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const todosRouter = require('./routes/todos');
+const categoriesRouter = require('./routes/categories');
 
 const app = express();
 
@@ -44,6 +45,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/todos', todosRouter);
+app.use('/categories', categoriesRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
