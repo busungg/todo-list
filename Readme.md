@@ -81,3 +81,10 @@ vue.js와 node.js (express)를 연습하기 위한 앱 구현
 4. Todo Router 구현
 5. Category Router 구현
 6. Vue 구현
+
+# view
+
+## 1. 모듈 및 프레임워크
+
+1. nuxt
+   - 직관적인 vue 프레임워크 (튜토리얼 진행)
