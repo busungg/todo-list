@@ -88,3 +88,5 @@ vue.js와 node.js (express)를 연습하기 위한 앱 구현
 
 1. nuxt
    - 직관적인 vue 프레임워크 (튜토리얼 진행)
+2. vue-cli
+   - vue 공부부터 진행하고 nuxt 진행하기로 변경
